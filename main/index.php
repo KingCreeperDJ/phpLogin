@@ -6,6 +6,7 @@
  * Time: 01:23
  */
 include "../php/checkloggedin.php";
+
 echo '<!DOCTYPE html>
 <html>
 <head>
