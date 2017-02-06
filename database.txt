@@ -8,3 +8,12 @@ PRIMARY KEY (ID)
 ALTER TABLE `users` ADD `username` VARCHAR(255) NOT NULL AFTER `ID`, ADD `password` VARCHAR(255) NOT NULL AFTER `username`; 
 
 INSERT INTO `users` (`ID`, `username`, `password`) VALUES (NULL, 'root', 'toor')
+
+//this is for the logins
+
+create TABLE logins(
+username varchar(255),
+`date` VARCHAR(255),
+`time` VARCHAR(255),
+PRIMARY KEY (time)
+);
